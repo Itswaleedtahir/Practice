@@ -28,6 +28,7 @@ app.get('/users/:userid',(req,res)=>{
     res.status(200).send({user :result})
 })
 
+//Update API
 app.put('/users/:userid',(req,res)=>{
     const { name } = req.body;
     const { userid } = req.params;
