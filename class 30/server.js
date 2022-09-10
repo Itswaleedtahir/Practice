@@ -41,6 +41,7 @@ app.put('/users/:userid',(req,res)=>{
     res.status(200).send({ users})
 })
 
+//Delete API
 app.delete('/users/:userid',(req,res)=>{
     const {userid} = req.params;
     const result = users[userid];
