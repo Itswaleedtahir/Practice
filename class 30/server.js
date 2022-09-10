@@ -3,6 +3,7 @@ const app = express();
 const users = [];
 app.use(express.json());
 
+//Post API
 app.post('/users',(req,res)=>{
     console.log(req.body);
     const { name } = req.body;
