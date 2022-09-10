@@ -14,6 +14,7 @@ app.post('/users',(req,res)=>{
     res.status(200).send(`${name} added in users successfully`);
 })
 
+//Get API
 app.get('/users',(req,res)=>{
     res.status(200).send({users});
 })
