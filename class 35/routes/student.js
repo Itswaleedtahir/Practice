@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
+
+//Requiring Controller here
 const studentRouter = require("../controllers/student");
 
 router.post('/',studentRouter.post);
