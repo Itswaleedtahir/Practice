@@ -7,6 +7,8 @@ app.use(express.json());
 const studentRouter = require("./routes/student");
 app.use("/api/students", studentRouter);
 
+
+//Server Port
 app.listen(4000 , function (){
     console.log("listening on port 4000")
 });
