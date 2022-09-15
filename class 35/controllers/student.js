@@ -22,6 +22,8 @@ async function post(req,res){
         res.stauts(500).send("something went wrong")    
     }
 }
+
+//Get API
 async function getall(req,res){
     try{
         const students = await Students.findAll()
