@@ -1,3 +1,6 @@
+//Database Connection
+
+
 const { Sequelize } = require("sequelize");
 
 const sequelize = new Sequelize("dcse","root","",{
