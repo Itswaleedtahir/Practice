@@ -3,6 +3,8 @@ const { DataTypes} = require('sequelize');
 
 const tableName = "students";
 
+
+//Student Model
 const Student = sequelize.define(tableName , {
     id:{
         type: DataTypes.INTEGER,
