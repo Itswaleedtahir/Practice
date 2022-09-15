@@ -31,4 +31,5 @@ const Student = sequelize.define(tableName , {
 });
 
 
+//Exporting function
 module.exports = Student;
