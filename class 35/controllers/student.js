@@ -1,5 +1,7 @@
 const Students = require("../models/student");
 
+
+//Post API
 async function post(req,res){
     try{
         const { name, email, password} = req.body;
