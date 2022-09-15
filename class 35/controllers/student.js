@@ -33,6 +33,8 @@ async function getall(req,res){
         res.stauts(500).send("something went wrong")   
     }
 }
+
+//Exporting Functions
 module.exports = {
     post,
     getall
