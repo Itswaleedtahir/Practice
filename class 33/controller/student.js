@@ -47,6 +47,8 @@ async function getsngle(req,res){
     }
 }
 
+
+//Update API
 async function update(req , res){
     try{
         const { studentid} = req.params
