@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 const students = require('../models/students');
 
+
+//Post API
 async function post(req,res){
     try{
         const {name , email} = req.body;
