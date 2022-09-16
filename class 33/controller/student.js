@@ -34,6 +34,8 @@ async function getall(req,res){
     }
 }
 
+
+//Getting Single API
 async function getsngle(req,res){
     try{
         const { studentid } = req.params
