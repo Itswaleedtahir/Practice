@@ -66,7 +66,7 @@ async function update(req , res){
 }
 
 
-
+//Export API
 module.exports =  {
     post,
     getall,
