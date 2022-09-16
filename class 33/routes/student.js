@@ -3,6 +3,8 @@ const router = express.Router();
 
 const studentControllers = require('../controller/student')
 
+
+//API Targetting
 router.post('/', studentControllers.post)
 
  router.get('/', studentControllers.getall)
