@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
 
+
+//Student Model
 const Student = new Schema({
     _id : {
         type : mongoose.Schema.Types.ObjectId
