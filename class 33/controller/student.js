@@ -22,6 +22,8 @@ async function post(req,res){
     }
 }
 
+
+//GETALL API
 async function getall(req,res){
     try{
         const Students = await students.find();
