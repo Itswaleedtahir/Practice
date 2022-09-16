@@ -10,7 +10,7 @@ const studentRouter = require('./routes/student');
 app.use('/api/students',studentRouter);
 
 
-
+//database connection
 mongoose.connect('mongodb+srv://itswaleedtahir:itswaleedtahir123@cluster0.smf6v.mongodb.net/DCSE').then(result=>{
     console.log("database connected")
 }).catch(err=>{
