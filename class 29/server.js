@@ -3,6 +3,8 @@ const path = require('path')
 const app = express()
 const port = 4000;
 
+
+//User ARRAY
 const users = ['Waleed','Akbar','Ather','Faisal'];
 
 app.use(express.static(path.join(__dirname,'public')))
