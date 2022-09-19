@@ -10,6 +10,8 @@ const users = ['Waleed','Akbar','Ather','Faisal'];
 app.use(express.static(path.join(__dirname,'public')))
 app.set("view engine","ejs");
 
+
+//Landing Page
 app.get('/',(req,res)=>{
     res.status(200).sendFile(path.join(__dirname,'views','index.html'));
 })
