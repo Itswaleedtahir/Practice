@@ -26,7 +26,7 @@ app.get('/user/:userID',(req,res)=>{
     })
 })
 
-
+//Server  Listening on port 4000
 app.listen(port,()=>{
     console.log(`listening  on port:${port}`);
 })
