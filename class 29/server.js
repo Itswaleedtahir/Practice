@@ -16,6 +16,8 @@ app.get('/',(req,res)=>{
     res.status(200).sendFile(path.join(__dirname,'views','index.html'));
 })
 
+
+//GET API
 app.get('/user/:userID',(req,res)=>{
     const {userID} =req.params;
     const user = users[userID]
