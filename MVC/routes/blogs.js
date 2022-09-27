@@ -1,5 +1,7 @@
 const express = require('express')
 const router = express.Router();
+
+//requiring controllers
 const controllerRouter = require('../controller/index')
 
 //Routes for controllers
