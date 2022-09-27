@@ -1,5 +1,6 @@
 const blogs = [];
 
+//Post API
 function post(req,res){
     const { title } = req.body;
     if(!title || title.length < 3){
