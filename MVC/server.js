@@ -4,6 +4,6 @@ const app= express();
 app.use(express.json());
 const userRouter= require('./routes/blogs')
 
-
+//Server listening on port 4000
 app.use('/api/blogs',userRouter)
 app.listen(4000)
