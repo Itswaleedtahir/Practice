@@ -15,6 +15,7 @@ function getall(req,res){
     res.status(200).send({blogs})
 }
 
+//Single GET API
 function getsingle(req,res){
     const { blogId } = req.params;
     const result = blogs[blogId];
