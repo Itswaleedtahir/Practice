@@ -10,6 +10,7 @@ function post(req,res){
     res.status(200).send(`${blogs} added in blogs successfully`);
 }
 
+//GET API
 function getall(req,res){
     res.status(200).send({blogs})
 }
