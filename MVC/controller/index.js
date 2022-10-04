@@ -38,6 +38,7 @@ function update(req,res){
     res.status(200).send({ blogs})
 }
 
+//DELETE API
 function del(req,res){
     const {blogId} = req.params;
     const result = blogs[blogId];
