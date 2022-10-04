@@ -25,6 +25,7 @@ function getsingle(req,res){
     res.status(200).send({blogs :result})
 }
 
+//PUT API
 function update(req,res){
     const { title } = req.body;
     const { blogId } = req.params;
