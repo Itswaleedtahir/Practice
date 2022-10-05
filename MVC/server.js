@@ -1,6 +1,8 @@
 //requiring NPM dependencies
 const express= require('express')
 const app= express();
+
+//To Json
 app.use(express.json());
 const userRouter= require('./routes/blogs')
 
