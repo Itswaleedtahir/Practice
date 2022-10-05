@@ -11,4 +11,5 @@ router.get('/:blogId', controllerRouter.getsingle)
 router.put('/:blogId',controllerRouter.update)
 router.delete('/:blogId',controllerRouter.del)
 
+//Module  Exporting
 module.exports= router;
